@@ -101,6 +101,9 @@ app.get("/api/fetchComments",fetchComments)
 app.post("/api/postComment",postComment)
 app.get("/api/upvote/:comment_id",incrementUpVote)
 app.get("/api/downvote/:comment_id",incrementDownVote)
+app.get("/api/check",(req,res)=>{
+    res.send("HELLOWORLD2")
+})
 app.get("/",(req,res)=>{
     res.send("HELLOWORLD")
 })
