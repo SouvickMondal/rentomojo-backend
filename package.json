@@ -4,7 +4,8 @@
   "description": "Server for commenting system",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +21,9 @@
   },
   "devDependencies": {
     "eslint": "^6.0.1"
-  }
+  },
+   "engines": {
+        "node": "10.16.0",
+        "npm": "6.9.0"
+    }
 }
